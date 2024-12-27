@@ -24,7 +24,8 @@ body {
   flex-direction: column;
 }
 
-.use {
+.use,
+.operador {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -37,9 +38,24 @@ body {
   margin: 1rem 0;
 }
 
+.operador img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
 span {
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+  background-color: #da8f72;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 ul {
