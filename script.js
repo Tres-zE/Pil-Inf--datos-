@@ -38,3 +38,9 @@ cantidad = 5;
 total = precioUnidad * cantidad;
 
 console.log('El total de la compra es: ' + total);
+
+/*fallas con el simbolo + */
+
+let pantalon = 10;
+let camisa = '5';
+console.log(pantalon + camisa);
